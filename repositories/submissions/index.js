@@ -19,7 +19,7 @@ async function allRanked () {
         score: "desc"
       },
       {
-        createdAt: "desc"
+        createdAt: "asc"
       }
     ]
   });
