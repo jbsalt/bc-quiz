@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.title {
+  font-size: 21px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.title em {
+  font-style: normal;
+  color: #aaa;
+}
+
+.logo {
+  margin: 0 10px 0 0;
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
