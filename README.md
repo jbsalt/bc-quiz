@@ -1,3 +1,15 @@
+## Setup (docker)
+
+> Set `PORT` `.env` if localhost 3000 conflict
+
+1. `docker compose up`
+2. `docker compose exec app bash`
+    - `npm i`
+    - `npx prisma db push`
+    - `npm run dev` or `npm run test`
+
+<details>
+
 # Book Creator Quiz
 The next evolution of the Book Creator app is here - yes, it's Book Creator Quiz. Not really, this repl is the candidate test for the Book Creator engineering team.
 
@@ -34,3 +46,6 @@ There are bugs. We'd like you to talk us through how you found them, whether you
 We'd also like your opinion on the existing unit tests as well as how you would approach adding end-to-end automation to this exciting project.
 
 Good luck!
+
+
+</details>
