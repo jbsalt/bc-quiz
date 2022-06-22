@@ -1,0 +1,29 @@
+.list {
+  display: list-item;
+  list-style-position: inside;
+  position: relative;
+  padding: 5px 30px;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: middle;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 30px;
+  border: 1px solid #f3f3f3;
+  margin: 0 0 5px;
+}
+
+.listInner {
+  display: inline-flex;
+  height: 100%;
+  width: -webkit-fill-available;
+  max-width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.highlighted {
+  border-color: #1374e2;
+}
