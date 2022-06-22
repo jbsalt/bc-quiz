@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: book-creator-quiz_app
+    image: book-creator-quiz_app:dev
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: sleep infinity
+    stdin_open: true
+    volumes:
+      - ./:/srv/app:delegated
+    ports:
+      - ${PORT:-3000}:3000
